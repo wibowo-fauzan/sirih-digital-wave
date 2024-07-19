@@ -1,0 +1,40 @@
+@media only screen and (max-width: 490px) {
+    /*  */
+    .space0-responsive {
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+    .width0-text-responsive {
+        width: 330px;
+    }
+    .space1-responsive {
+        margin-top: 25px;
+    }
+
+    /*  */
+    .pding0-responsive {
+        padding: 20px;
+    }
+    .padding0-responsive {
+        width: 300px;
+    }
+    .text0-responsive {
+        font-size: 20px;
+    }
+    
+    .top0-responsve {
+        margin-bottom: 160px!important;
+        height: 250px;
+    }
+    .top-card0-responsve {
+        margin-top: 100px;
+    }
+    
+    /*  */
+    .cnter0-image-responsve {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

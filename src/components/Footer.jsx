@@ -4,7 +4,7 @@ import Logowave from '../assets/image/logo-sirih-digital-wave.png';
 
 const Footer = () => {
     return (
-        <div className="position-relative mt-5">
+        <div className="position-relative mt-5 pt-5">
             <div className="container">
                 <div className="card bg-gradient-primary z-index-3 overflow-hidden">
                     <div className="card-body">
@@ -18,7 +18,6 @@ const Footer = () => {
                                 <div className="row">
                                     <div className="col-sm-5 ms-auto">
                                         <div className="input-group">
-                                            <span className="input-group-text"><i className="fas fa-envelope"></i></span>
                                             <input type="text" className="form-control mb-sm-0 mb-2" placeholder="Email Here..."/>
                                         </div>
                                     </div>
@@ -52,12 +51,11 @@ const Footer = () => {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3">
-                            <a className="navbar-brand font-weight-bolder ms-sm-3" href="" target="_blank"> 
-                                <img src={Logowave} className="img-fuid" width="200" height="auto" alt="logo digital sirih" /> 
-                                {/* <h6 className="font-weight-bolder mb-lg-4 mb-3">Sirih Digital Wave</h6> */}
-                            </a>
-                        </div>
+                    <div className="col-lg-3 d-flex justify-content-center align-items-center">
+                        <a className="navbar-brand font-weight-bolder ms-sm-3 text-center" href="" target="_blank"> 
+                            <img src={Logowave} className="img-fluid" width="200" height="auto" alt="logo digital sirih" /> 
+                        </a>
+                    </div>
                         <div className="col-lg-6 text-center">
                             <ul className="nav flex-row align-items-center mb-5 mt-sm-0 justify-content-center">
                                 <li className="nav-item">
@@ -73,6 +71,11 @@ const Footer = () => {
                                 <li className="nav-item">
                                     <Link to="/contact" className="nav-link"  target="_blank">
                                         Contact Us
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/Support" className="nav-link"  target="_blank">
+                                        Support
                                     </Link>
                                 </li>
                             </ul>

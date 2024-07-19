@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logowave from '../assets/image/logo-sirih-digital-wave.png';
+import sirihdigitalwavelogo from '../assets/image/logo-sirih-digital-wave.png';
 import Iconlanding from './SVG/Iconlanding';
 import Iconprofile from './SVG/Iconprofile';
 import Icondownarrow from './SVG/Icondownarrow';
@@ -12,8 +12,8 @@ const Nav = () => {
             <div className="col-12">
                 <nav className="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
                     <div className="container-fluid px-0">
-                        <a className="navbar-brand font-weight-bolder ms-sm-3" href="" target="_blank"> 
-                            <img src={Logowave} className="img-fuid" width="100" height="auto" alt="logo digital sirih" /> 
+                        <a className="navbar-brand font-weight-bolder ms-sm-3" href="/" target="_blank"> 
+                            <img src={sirihdigitalwavelogo} className="img-fuid" width="100" height="auto" alt="logo sirih digital wave" /> 
                         </a>
                         <button className="navbar-toggler shadow-none ms-2 me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon mt-2">
@@ -28,11 +28,9 @@ const Nav = () => {
                                     <a className="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="javascript:;" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false"> Pages
                                         <Icondownarrow />
                                     </a>
-                                    <div className="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3"
-                                        aria-labelledby="dropdownMenuPages">
+                                    <div className="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                                         <div className="d-none d-lg-block">
-                                            <div
-                                                className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
+                                            <div className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0">
                                                 <div className="d-inline-block">
                                                     <div className="border-radius-md text-center me-2 d-flex align-items-center justify-content-center ps-0">
                                                         <Iconlanding />
@@ -46,8 +44,8 @@ const Nav = () => {
                                             <Link to="/contact" className="dropdown-item border-radius-md">
                                                 <span className="ps-3">Contact Us</span>
                                             </Link>
-                                            <Link to="/author" className="dropdown-item border-radius-md">
-                                                <span className="ps-3">Author</span>
+                                            <Link to="/Support" className="dropdown-item border-radius-md">
+                                                <span className="ps-3">Support</span>
                                             </Link>
                                             <div className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center px-0 mt-3">
                                                 <div className="d-inline-block">
